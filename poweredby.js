@@ -8,6 +8,6 @@ window.onload = function() {
   const elemDiv = document.createElement('div');
   elemDiv.innerHTML = poweredby;
   const gradient = ``;
-  elemDiv.style.cssText = `position: fixed; bottom: 30px; text-align: center; width: 100%;z-index:9999;${gradient}`;
+  elemDiv.style.cssText = `position: fixed; bottom: 20px; right: 10px; text-align: center; width: 100%;z-index:9999;${gradient}`;
   document.body.insertBefore(elemDiv, document.body.firstChild);
 };
